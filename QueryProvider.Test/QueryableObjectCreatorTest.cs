@@ -1,6 +1,6 @@
-﻿using JsonDeserializer;
-using JsonDeserializer.Test;
-using QueryProvider.QueryProvider.Test.Mock;
+﻿using QueryProvider.QueryProvider.Test.Mock;
+using ResourceRetriever;
+using ResourceRetriever.Test;
 using System.Linq;
 using Xunit;
 

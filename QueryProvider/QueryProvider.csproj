@@ -5,7 +5,7 @@
     <RootNamespace>QueryProvider.QueryProvider</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Json\JsonDeserializer\JsonDeserializer.csproj" />
+    <ProjectReference Include="..\..\ServerCommunication\ResourceRetriever\ResourceRetriever.csproj" />
     <ProjectReference Include="..\..\Utility\Utility\Utility.csproj" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
