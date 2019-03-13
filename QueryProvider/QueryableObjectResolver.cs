@@ -1,8 +1,8 @@
-﻿using ResourceRetriever;
-using System;
-using Utility.Utility.Extension;
+﻿using System;
+using ResourceRetriever;
+using Utility.Extension;
 
-namespace QueryProvider.QueryProvider
+namespace QueryProvider
 {
     public class QueryableObjectResolver : DefaultObjectResolver
     {

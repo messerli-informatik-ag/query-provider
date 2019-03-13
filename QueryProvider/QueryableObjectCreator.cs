@@ -1,9 +1,9 @@
-﻿using ResourceRetriever;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using Utility.Utility.Extension;
+using ResourceRetriever;
+using Utility.Extension;
 
-namespace QueryProvider.QueryProvider
+namespace QueryProvider
 {
     public class QueryableObjectCreator : EnumerableObjectCreator
     {

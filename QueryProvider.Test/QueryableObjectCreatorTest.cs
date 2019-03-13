@@ -1,10 +1,10 @@
-﻿using QueryProvider.QueryProvider.Test.Mock;
+﻿using System.Linq;
+using QueryProvider.Test.Mock;
 using ResourceRetriever;
 using ResourceRetriever.Test;
-using System.Linq;
 using Xunit;
 
-namespace QueryProvider.QueryProvider.Test
+namespace QueryProvider.Test
 {
     public class QueryableObjectCreatorTest : EnumerableObjectCreatorTest
     {

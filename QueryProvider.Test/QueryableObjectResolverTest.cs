@@ -1,12 +1,12 @@
-﻿using QueryProvider.QueryProvider.Test.Mock;
-using QueryProvider.QueryProvider.Test.Stub;
+﻿using System.Collections.Generic;
+using System.Linq;
+using QueryProvider.Test.Mock;
+using QueryProvider.Test.Stub;
 using ResourceRetriever;
 using ResourceRetriever.Test;
-using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
-namespace QueryProvider.QueryProvider.Test
+namespace QueryProvider.Test
 {
     public class QueryableObjectResolverTest : DefaultObjectResolverTest
     {

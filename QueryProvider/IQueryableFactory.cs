@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace QueryProvider.QueryProvider
+namespace QueryProvider
 {
     public interface IQueryableFactory
     {

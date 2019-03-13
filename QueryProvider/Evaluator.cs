@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace QueryProvider.QueryProvider
+namespace QueryProvider
 {
     public static class Evaluator
     {

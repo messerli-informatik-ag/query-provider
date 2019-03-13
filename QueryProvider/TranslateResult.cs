@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace QueryProvider.QueryProvider
+namespace QueryProvider
 {
     public class TranslateResult
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace QueryProvider.QueryProvider.Test.Stub
+namespace QueryProvider.Test.Stub
 {
     internal class ClassWithQueryableMember : IEquatable<ClassWithQueryableMember>
     {

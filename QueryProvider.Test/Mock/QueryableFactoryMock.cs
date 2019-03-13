@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace QueryProvider.QueryProvider.Test.Mock
+namespace QueryProvider.Test.Mock
 {
     public class QueryableFactoryMock : IQueryableFactory
     {
