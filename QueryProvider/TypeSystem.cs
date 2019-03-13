@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace QueryProvider.QueryProvider
 {
-    internal static class TypeSystem
+    public static class TypeSystem
     {
-        internal static Type GetElementType(Type seqType)
+        public static Type GetElementType(Type seqType)
         {
-            var ienum = FindIEnumerable(seqType);
-            return ienum is null ? seqType : ienum.GetGenericArguments()[0];
+            var foundEnumerable = FindIEnumerable(seqType);
+            return foundEnumerable is null ? seqType : foundEnumerable.GetGenericArguments()[0];
         }
 
         private static Type FindIEnumerable(Type seqType)
@@ -28,23 +28,23 @@ namespace QueryProvider.QueryProvider
                 {
                     foreach (var arg in seqType.GetGenericArguments())
                     {
-                        var ienum = typeof(IEnumerable<>).MakeGenericType(arg);
+                        var enumType = typeof(IEnumerable<>).MakeGenericType(arg);
 
-                        if (ienum.IsAssignableFrom(seqType))
+                        if (enumType.IsAssignableFrom(seqType))
                         {
-                            return ienum;
+                            return enumType;
                         }
                     }
                 }
 
-                var ifaces = seqType.GetInterfaces();
+                var interfaces = seqType.GetInterfaces();
 
-                if (ifaces.Length > 0)
+                if (interfaces.Length > 0)
                 {
-                    foreach (var iface in ifaces)
+                    foreach (var interfaceType in interfaces)
                     {
-                        var ienum = FindIEnumerable(iface);
-                        if (ienum != null) return ienum;
+                        var foundEnumerable = FindIEnumerable(interfaceType);
+                        if (foundEnumerable != null) return foundEnumerable;
                     }
                 }
 
