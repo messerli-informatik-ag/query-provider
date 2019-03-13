@@ -1,8 +1,6 @@
-﻿using JsonDeserializer;
-using System;
-using Utility.Utility.Extension;
+﻿using System;
 
-namespace Update.Client.ServerCommunication.QueryProvider
+namespace QueryProvider.QueryProvider
 {
     public class QueryableObjectResolver : DefaultObjectResolver
     {

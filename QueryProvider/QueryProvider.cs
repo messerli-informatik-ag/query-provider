@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Update.Client.ServerCommunication.QueryProvider
+namespace QueryProvider.QueryProvider
 {
     public abstract class QueryProvider : IQueryProvider
     {

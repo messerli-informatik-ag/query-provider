@@ -1,9 +1,7 @@
-﻿using JsonDeserializer;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using Utility.Utility.Extension;
 
-namespace Update.Client.ServerCommunication.QueryProvider
+namespace QueryProvider.QueryProvider
 {
     public class QueryableObjectCreator : EnumerableObjectCreator
     {

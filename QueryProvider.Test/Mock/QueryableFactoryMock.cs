@@ -2,9 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Update.Client.ServerCommunication.QueryProvider;
 
-namespace Update.Client.ServerCommunication.Test.QueryProvider.Mocks
+namespace QueryProvider.QueryProvider.Test.Mock
 {
     public class QueryableFactoryMock : IQueryableFactory
     {

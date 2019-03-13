@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Update.Client.ServerCommunication.QueryProvider
+namespace QueryProvider.QueryProvider
 {
     internal static class TypeSystem
     {

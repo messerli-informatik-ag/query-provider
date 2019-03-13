@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Update.Client.ServerCommunication.QueryProvider
+namespace QueryProvider.QueryProvider
 {
     [DebuggerDisplay(nameof(Query<T>))]
     public class Query<T> : IOrderedQueryable<T>, IEquatable<Query<T>>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Update.Client.ServerCommunication.QueryProvider
+namespace QueryProvider.QueryProvider
 {
     public interface IQueryableFactory
     {

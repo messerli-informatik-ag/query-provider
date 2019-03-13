@@ -1,11 +1,8 @@
-﻿using JsonDeserializer;
-using JsonDeserializer.Test;
+﻿using QueryProvider.QueryProvider.Test.Mock;
 using System.Linq;
-using Update.Client.ServerCommunication.QueryProvider;
-using Update.Client.ServerCommunication.Test.QueryProvider.Mocks;
 using Xunit;
 
-namespace Update.Client.ServerCommunication.Test.QueryProvider
+namespace QueryProvider.QueryProvider.Test
 {
     public class QueryableObjectCreatorTest : EnumerableObjectCreatorTest
     {
