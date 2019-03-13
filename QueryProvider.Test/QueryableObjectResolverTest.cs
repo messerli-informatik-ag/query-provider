@@ -1,4 +1,6 @@
-﻿using QueryProvider.QueryProvider.Test.Mock;
+﻿using JsonDeserializer;
+using JsonDeserializer.Test;
+using QueryProvider.QueryProvider.Test.Mock;
 using QueryProvider.QueryProvider.Test.Stub;
 using System.Collections.Generic;
 using System.Linq;

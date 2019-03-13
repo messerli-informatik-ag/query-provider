@@ -5,4 +5,9 @@
     <RootNamespace>QueryProvider.QueryProvider</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Json\JsonDeserializer\JsonDeserializer.csproj" />
+    <ProjectReference Include="..\..\Utility\Utility\Utility.csproj" />
+  </ItemGroup>
+
 </Project>
