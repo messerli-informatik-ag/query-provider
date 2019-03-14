@@ -9,6 +9,6 @@
         <license type="expression">MIT or Apache-2.0</license>
         <description>A generic LINQ QueryProvider implementation, used by LinqToRest.</description>
         <copyright>Copyright ©2019 Messerli Informatik Ag</copyright>
-        <tags>utility query linq rest</tags>
+        <tags>utility query linq</tags>
     </metadata>
 </package>
