@@ -4,6 +4,7 @@
     <Version>0.1.0</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>QueryProvider</RootNamespace>
+    <AssemblyName>Messerli.QueryProvider</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ServerCommunication\ResourceRetriever\ResourceRetriever.csproj" />

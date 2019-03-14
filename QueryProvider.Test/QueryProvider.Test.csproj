@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <IsPackable>false</IsPackable>
-    <RootNamespace>QueryProvider.Test</RootNamespace>
+    <RootNamespace>Messerli.QueryProvider.Test</RootNamespace>
+    <AssemblyName>Messerli.QueryProvider.Test</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
