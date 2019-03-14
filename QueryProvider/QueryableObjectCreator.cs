@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ResourceRetriever;
-using Utility.Extension;
+using Messerli.ServerCommunication;
+using Messerli.Utility.Extension;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public class QueryableObjectCreator : EnumerableObjectCreator
     {

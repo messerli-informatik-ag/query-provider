@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <IsPackable>false</IsPackable>
-    <RootNamespace>QueryProvider.Test</RootNamespace>
+    <RootNamespace>Messerli.QueryProvider.Test</RootNamespace>
+    <AssemblyName>Messerli.QueryProvider.Test</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
@@ -11,8 +12,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ServerCommunication\ResourceRetriever.Test\ResourceRetriever.Test.csproj" />
     <ProjectReference Include="..\QueryProvider\QueryProvider.csproj" />
   </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

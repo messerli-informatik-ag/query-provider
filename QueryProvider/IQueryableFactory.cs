@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public interface IQueryableFactory
     {
