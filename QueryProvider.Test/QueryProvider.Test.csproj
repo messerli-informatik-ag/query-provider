@@ -14,5 +14,5 @@
     <ProjectReference Include="..\..\ServerCommunication\ResourceRetriever.Test\ResourceRetriever.Test.csproj" />
     <ProjectReference Include="..\QueryProvider\QueryProvider.csproj" />
   </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
