@@ -8,7 +8,7 @@
         <projectUrl>http://github.com/messerli-informatik-ag/query-provider</projectUrl>
         <license type="expression">MIT or Apache-2.0</license>
         <description>A generic LINQ QueryProvider implementation, used by LinqToRest.</description>
-        <copyright>Copyright ©2019 Messerli Informatik Ag</copyright>
+        <copyright>Copyright ©2019 Messerli Informatik AG</copyright>
         <tags>utility query linq</tags>
         <dependencies>
             <dependency id="Messerli.Utility" version="[0.1.0,1.0.0)" />
