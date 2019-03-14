@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Messerli.QueryProvider.Test.Mock;
+using Messerli.QueryProvider.Test.Stub;
 using Messerli.ServerCommunication;
-using QueryProvider.Test.Mock;
-using QueryProvider.Test.Stub;
 using Xunit;
 
-namespace QueryProvider.Test
+namespace Messerli.QueryProvider.Test
 {
     public class QueryableObjectResolverTest
     {

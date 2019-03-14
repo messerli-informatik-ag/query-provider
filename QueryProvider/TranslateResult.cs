@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public class TranslateResult
     {

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using Messerli.QueryProvider.Test.Mock;
 using Messerli.ServerCommunication;
-using QueryProvider.Test.Mock;
 using Xunit;
 
-namespace QueryProvider.Test
+namespace Messerli.QueryProvider.Test
 {
     public class QueryableObjectCreatorTest
     {

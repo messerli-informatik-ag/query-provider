@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public static class TypeSystem
     {

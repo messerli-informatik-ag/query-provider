@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Version>0.1.0</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>QueryProvider</RootNamespace>
+    <RootNamespace>Messerli.QueryProvider</RootNamespace>
     <AssemblyName>Messerli.QueryProvider</AssemblyName>
   </PropertyGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />

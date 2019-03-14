@@ -2,7 +2,7 @@
 using Messerli.ServerCommunication;
 using Messerli.Utility.Extension;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public class QueryableObjectResolver : DefaultObjectResolver
     {

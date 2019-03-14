@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public abstract class QueryProvider : IQueryProvider
     {

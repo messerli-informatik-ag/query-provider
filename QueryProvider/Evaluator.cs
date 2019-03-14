@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace QueryProvider
+namespace Messerli.QueryProvider
 {
     public static class Evaluator
     {
