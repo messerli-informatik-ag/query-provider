@@ -10,5 +10,9 @@
         <description>A generic LINQ QueryProvider implementation, used by LinqToRest.</description>
         <copyright>Copyright ©2019 Messerli Informatik Ag</copyright>
         <tags>utility query linq</tags>
+        <dependencies>
+            <dependency id="Messerli.Utility" version="[0.1.0,1.0.0)" />
+            <dependency id="Messerli.ServerCommunication" version="[0.1.0,1.0.0)" />
+        </dependencies>
     </metadata>
 </package>
