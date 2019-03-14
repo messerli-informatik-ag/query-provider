@@ -1,6 +1,6 @@
 ﻿using System;
-using ResourceRetriever;
-using Utility.Extension;
+using Messerli.ServerCommunication;
+using Messerli.Utility.Extension;
 
 namespace QueryProvider
 {

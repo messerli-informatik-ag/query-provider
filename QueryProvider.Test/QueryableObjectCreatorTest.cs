@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using Messerli.ServerCommunication;
 using QueryProvider.Test.Mock;
-using ResourceRetriever;
-using ResourceRetriever.Test;
 using Xunit;
 
 namespace QueryProvider.Test

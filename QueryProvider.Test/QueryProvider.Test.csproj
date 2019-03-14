@@ -12,7 +12,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ServerCommunication\ResourceRetriever.Test\ResourceRetriever.Test.csproj" />
     <ProjectReference Include="..\QueryProvider\QueryProvider.csproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
