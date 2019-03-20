@@ -1,5 +1,4 @@
-﻿using System;
-using Messerli.ServerCommunication;
+﻿using Messerli.ServerCommunication;
 using Messerli.Utility.Extension;
 
 namespace Messerli.QueryProvider
@@ -13,11 +12,11 @@ namespace Messerli.QueryProvider
             _queryableFactory = queryableFactory;
         }
 
-        public override object Resolve(Type type, object current)
+        public override object Resolve(ObjectToResolve objectToResolve)
         {
-            return type.IsQueryable()
-                ? _queryableFactory.CreateQueryable(type.GetInnerType())
-                : base.Resolve(type, current);
+            return objectToResolve.Type.IsQueryable()
+                ? _queryableFactory.CreateQueryable(objectToResolve)
+                : base.Resolve(objectToResolve);
         }
     }
 }
