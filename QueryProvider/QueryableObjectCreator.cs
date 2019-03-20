@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Messerli.ServerCommunication;
+﻿using Messerli.ServerCommunication;
 using Messerli.Utility.Extension;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Messerli.QueryProvider
 {
@@ -24,7 +25,7 @@ namespace Messerli.QueryProvider
         public override object CreateInstance(Type type, IEnumerable<object> parameters)
         {
             return type.IsQueryable()
-                ? _queryableFactory.CreateQueryable(type.GetInnerType())
+                ? parameters.AsQueryable()
                 : base.CreateInstance(type, parameters);
         }
     }
