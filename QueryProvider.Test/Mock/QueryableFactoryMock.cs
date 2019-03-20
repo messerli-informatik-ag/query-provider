@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Messerli.ServerCommunication;
+using Messerli.Utility.Extension;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,11 @@ namespace Messerli.QueryProvider.Test.Mock
         {
             var list = (IList)Activator.CreateInstance(typeof(List<>).MakeGenericType(type));
             return list.AsQueryable();
+        }
+
+        public IQueryable CreateQueryable(ObjectToResolve objectToResolve)
+        {
+            return CreateQueryable(objectToResolve.Type.GetInnerType());
         }
     }
 }
