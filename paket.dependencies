@@ -3,4 +3,4 @@ framework auto-detect
 source https://www.nuget.org/api/v2
 
 nuget Messerli.Utility ~> 0.1
-nuget Messerli.ServerCommunication ~> 0.1
+nuget Messerli.ServerCommunication ~> 0.2
