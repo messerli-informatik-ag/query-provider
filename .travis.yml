@@ -11,7 +11,7 @@ install:
   - dotnet tool install -g paket
 
 script: 
- - dotnet paket install
+ - paket install
  - dotnet restore
  - dotnet build
  - dotnet test
