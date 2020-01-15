@@ -12,7 +12,6 @@
         <PackageId>Messerli.QueryProvider</PackageId>
         <PackageTags>utility query linq</PackageTags>
         <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
-        <Authors>Jan Nils Ferner, Dominic Groth, Thomas Bruderer</Authors>
         <Copyright>© Messerli Informatik AG. All rights reserved.</Copyright>
         <Description>A generic LINQ QueryProvider implementation, used by LinqToRest.</Description>
     </PropertyGroup>
