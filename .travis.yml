@@ -12,7 +12,7 @@ env:
 install:
   - dotnet tool restore
 
-script: 
+script:
  - dotnet paket install
  - dotnet restore
  - dotnet build
