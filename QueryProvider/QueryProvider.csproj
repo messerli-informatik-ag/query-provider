@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk; Microsoft.Build.CentralPackageVersions">
     <PropertyGroup>
         <Version>0.2.0</Version>
         <TargetFramework>netstandard2.0</TargetFramework>
@@ -15,5 +15,4 @@
         <Copyright>© Messerli Informatik AG. All rights reserved.</Copyright>
         <Description>A generic LINQ QueryProvider implementation, used by LinqToRest.</Description>
     </PropertyGroup>
-    <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
