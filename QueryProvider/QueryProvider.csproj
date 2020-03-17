@@ -15,5 +15,4 @@
         <Copyright>© Messerli Informatik AG. All rights reserved.</Copyright>
         <Description>A generic LINQ QueryProvider implementation, used by LinqToRest.</Description>
     </PropertyGroup>
-    <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
