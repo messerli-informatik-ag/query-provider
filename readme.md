@@ -1,3 +1,6 @@
+> **Note** \
+> This project is no longer actively maintained.
+
 # QueryProvider
 
 [![Build Status](https://travis-ci.org/messerli-informatik-ag/query-provider.svg?branch=master)](https://travis-ci.org/messerli-informatik-ag/query-provider)
